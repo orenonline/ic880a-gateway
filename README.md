@@ -1,8 +1,6 @@
-# The Things Network: iC880a-based gateway
+# The Things Network: RisingHF gateway
 
-Reference setup for [The Things Network](http://thethingsnetwork.org/) gateways based on the iC880a SPI concentrator with a Raspberry Pi host.
-
-This installer targets the **SPI version** of the board, if you have the USB version, [check this branch](https://github.com/ttn-zh/ic880a-gateway/tree/master).
+Reference setup for [The Things Network](http://thethingsnetwork.org/) gateways based on the RisingHF SPI concentrator with a Raspberry Pi host.
 
 ## Setup
 
@@ -10,18 +8,22 @@ Check [a step-by-step HOWTO in our wiki](https://github.com/ttn-zh/ic880a-gatewa
 
 ## Installation
 
+- Make sure to stop Loriot GW-Server services
+        $ sudo update-rc.d loriot-gw remove
+
 - Clone the installer and start the installation
 
         $ git clone https://github.com/ttn-zh/ic880a-gateway.git ~/ic880a-gateway
         $ cd ~/ic880a-gateway
-        $ sudo ./install.sh spi
+        $ git checkout risinghf
+        $ sudo ./install.sh
 
 ## Update
 
 If you have a running gateway and want to update, simply run the installer again:
 
         $ cd ~/ic880a-gateway
-        $ sudo ./install.sh spi
+        $ sudo ./install.sh
 
 # Credits
 
