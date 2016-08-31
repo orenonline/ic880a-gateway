@@ -9,6 +9,7 @@ Check [a step-by-step HOWTO in our wiki](https://github.com/ttn-zh/ic880a-gatewa
 ## Installation
 
 - Make sure to stop Loriot GW-Server services
+
         $ sudo update-rc.d loriot-gw remove
 
 - Clone the installer and start the installation
