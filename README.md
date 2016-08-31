@@ -14,7 +14,7 @@ Check [a step-by-step HOWTO in our wiki](https://github.com/ttn-zh/ic880a-gatewa
 
 - Clone the installer and start the installation
 
-        $ git clone https://github.com/ttn-zh/ic880a-gateway.git ~/ic880a-gateway
+        $ git clone https://github.com/zaki75/ic880a-gateway.git ~/ic880a-gateway
         $ cd ~/ic880a-gateway
         $ git checkout risinghf
         $ sudo ./install.sh
