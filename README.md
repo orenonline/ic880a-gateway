@@ -17,14 +17,14 @@ Check [a step-by-step HOWTO in our wiki](https://github.com/ttn-zh/ic880a-gatewa
         $ git clone https://github.com/zaki75/ic880a-gateway.git ~/ic880a-gateway
         $ cd ~/ic880a-gateway
         $ git checkout risinghf
-        $ sudo ./install.sh
+        $ sudo ./install.sh spi
 
 ## Update
 
 If you have a running gateway and want to update, simply run the installer again:
 
         $ cd ~/ic880a-gateway
-        $ sudo ./install.sh
+        $ sudo ./install.sh spi
 
 # Credits
 
